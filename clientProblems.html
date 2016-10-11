@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Palveluun</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/home/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+
+		<div class="header-middle"><!--header-middle-->
+			<div  class="container-fluid">
+
+				<div  class="row">
+
+              <div class="navbar navbar-default" style="border-radius:0; background: none; border: none; margin-bottom: 0">
+
+                  <div  class="navbar-header col-sm-2">
+                    <a class="navbar-brand" href="index.html" style="font-family:Arial, Helvetica, sans-serif; font-size:2em; font-weight: 400">Palveluun</a>
+                  </div>
+                  <div id="top" class="col-sm-7">
+                  <ul class="nav navbar-nav ">
+                   <li><a href="#">TÄYDELLINEN TEKNINEN KORJAUS</a></li>
+                   <li><a href="#" style:"hover:none"><i class="fa fa-phone"> +358   440477559 </i></a></li>
+                   <li><a href="#">info@palveluun.fi</a></li>
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      </ul>
+                </div>
+                <div id="top" class="col-sm-3">
+                <ul class="language nav navbar-nav pull-right " style="padding:0 !important">
+                  <li><a href="loginType.html"><i class="fa fa-edit"></i> Rekisteröidy / Kirjaudu </a></li>
+                  <!-- <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li> -->
+                  <li class=" subNav">
+                       <a href="#" title="Switch language"> Suomi<i class="fa fa-caret-down"> &nbsp; </i></a>
+                     <ul class="submenu" style="width:90px; margin-left:1px;">
+                          <li><a href="#"> Englanti</a></li>
+                          <li><a href="#"> Ruotsi</a></li>
+
+                      </ul>
+                  </li>
+                    </ul>
+              </div>
+              </div>
+
+				</div><!--/row-->
+
+      </div><!--/container-fluid-->
+
+		</div><!--/header-middle-->
+    <div class="header-middle"><!--header-middle-->
+      <div  class="container-fluid">
+        <ul class="nav navbar-nav" id="for_font">
+
+          <li><a href="loginType.html" style:"hover:none"><i class="fa fa-bell"></i>&nbsp;&nbsp;Pyydä palvelua ?</a></li>
+          <li><a href="companyOffers.html" style:"hover:none"><i class="fa-rotate-270 glyphicon glyphicon-wrench"></i>&nbsp;&nbsp;Yritysten tarjoukset</a></li>
+          <li><a href="clientProblems.html"><i class="fa fa-tasks"> </i>&nbsp;&nbsp;Kuluttajien Tarjouspyynnöt</a></li>
+          <li><a href="networks.html"><i class="fa fa-users"></i></i>&nbsp;&nbsp;Verkostomme</a></li>
+          <li><a href="blogs.html"><i class="fa fa-newspaper-o"></i>&nbsp;&nbsp;Blogi</a></li>
+          <li><a href="#"><i class="glyphicon glyphicon-question-sign"></i>&nbsp;&nbsp;Yleisimmin kysytyt kysymykset</a></li>
+        </ul>
+        <div  class="row search-box-container" id = "white">
+
+          <div class="search_box">
+              <input class="search_box" type="search" placeholder="Etsi"/>
+           </div>
+        </div><!--/row-->
+      </div><!--/container-fluid-->
+
+    </div><!--/header-middle-->
+
+
+	<section>
+		<div id= "margins" class="container-fluid">
+			<div class="row">
+        <div style="background-color:#ccc; border-radius: 5px; padding-left:0.5%; padding-right:0.5%; border: 1px solid rgba(60, 141, 188, 0.21);
+} "class="col-sm-2">
+<div  style="padding-left:0px; padding-right:0px;" class="left-sidebar">
+  <h2>ETSITKÖ?</h2><hr>
+
+  <form>
+    <input type="checkbox" name="Location" id="type" value="Car" checked>&nbsp;&nbsp;YRITYSTEN TARJOUKSET<br>
+    <input type="checkbox" name="Location" id="type" value="Bike">&nbsp;&nbsp;Kuluttajien Tarjouspyynnöt<br>
+    <input type="checkbox" name="Location" id="type" value="Bike">&nbsp;&nbsp;PALVELUYRITYKSET<br>
+  </form>
+
+  <div  class="panel-group category-products" id="accordian"><!--category-productsr-->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordian" href="#state">
+            <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+           ALUE
+          </a>
+        </h4>
+      </div>
+      <div id="state" class="panel-collapse collapse">
+        <div class="panel-body">
+          <ul>
+            <li><a href="#">    <input type="checkbox">Pohjois-Suomi </a></li>
+            <li><a href="#">    <input type="checkbox">Uusimaa </a></li>
+            <li><a href="#">    <input type="checkbox">Varsinais-Suomi </a></li>
+            <li><a href="#">    <input type="checkbox">Satakunta</a></li>
+            <li><a href="#">	  <input type="checkbox">Kanta-Häme</a></li>
+            <li><a href="#">    <input type="checkbox">Pirkanmaa</a></li>
+            <li><a href="#">    <input type="checkbox">Päijät-Häme</a></li>
+            <li><a href="#">    <input type="checkbox">Kymenlaakso</a></li>
+            <li><a href="#">    <input type="checkbox">Etelä-Karjala</a></li>
+            <li><a href="#">    <input type="checkbox">Etelä-Savo</a></li>
+            <li><a href="#">  	<input type="checkbox">Pohjois-Savo</a></li>
+            <li><a href="#">  <input type="checkbox">Pohjois-Karjala</a></li>
+            <li><a href="#">	<input type="checkbox">Keski-Suomi</a></li>
+            <li><a href="#">	<input type="checkbox">Etelä-Pohjanmaa</a></li>
+            <li><a href="#">	<input type="checkbox">Pohjanmaa</a></li>
+            <li><a href="#">	<input type="checkbox">Keski-Pohjanmaa</a></li>
+            <li><a href="#">	<input type="checkbox">Pohjois-Pohjanmaa</a></li>
+            <li><a href="#">	<input type="checkbox">Kainuu</a></li>
+            <li><a href="#">	<input type="checkbox">Lappi</a></li>
+            <li><a href="#">	<input type="checkbox">Ahvenanmaa - Åland</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordian" href="#location">
+            <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+            KAUPUNKI
+          </a>
+        </h4>
+      </div>
+      <div id="location" class="panel-collapse collapse">
+        <div class="panel-body">
+          <ul>
+            <li><a href="#">Helsinki </a></li>
+            <li><a href="#">Espoo </a></li>
+            <li><a href="#">Tampere </a></li>
+            <li><a href="#">Vantaa</a></li>
+            <li><a href="#">Oulu </a></li>
+            <li><a href="#">Turku </a></li>
+            <li><a href="#">Jyväskylä </a></li>
+            <li><a href="#">Lahti </a></li>
+            <li><a href="#">Kuopio </a></li>
+            <li><a href="#">Kouvola </a></li>
+            <li><a href="#">Pori </a></li>
+            <li><a href="#">Joensuu </a></li>
+            <li><a href="#">Lappeenranta </a></li>
+            <li><a href="#">Hämeenlinna </a></li>
+            <li><a href="#">Vaasa </a></li>
+            <li><a href="#">Rovaniemi </a></li>
+            <li><a href="#">Seinäjoki </a></li>
+            <li><a href="#">Mikkeli </a></li>
+            <li><a href="#">Kotka </a></li>
+            <li><a href="#">Salo </a></li>
+            <li><a href="#">Porvoo </a></li>
+            <li><a href="#">Kokkola </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordian" href="#category">
+            <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+            Kategoriat
+          </a>
+        </h4>
+      </div>
+      <div id="category" class="panel-collapse collapse">
+        <div class="panel-body">
+          <ul>
+            <li><a href="#">Elektroniikka</a></li>
+            <li><a href="#">Kotitalouspalvelut</a></li>
+            <li><a href="#">Hyvinvointipalvelut</a></li>
+            <li><a href="#">Vapaa-aika</a></li>
+            <li><a href="#">Asunnot ja tontit</a></li>
+            <li><a href="#">Muu</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordian" href="#brand">
+            <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+            Alakategoriat
+          </a>
+        </h4>
+      </div>
+      <div id="brand" class="panel-collapse collapse">
+        <div class="panel-body">
+          <ul>
+            <li><a href="#">Tietokoneet</a></li>
+            <li><a href="#">Matkapuhelimet</a></li>
+            <li><a href="#">Kamerat</a></li>
+            <li><a href="#">Kannettavat tietokoneet</a></li>
+            <li><a href="#">Kodinkoneet</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordian" href="#body_type">
+            <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+          Merkki
+          </a>
+        </h4>
+      </div>
+      <div id="body_type" class="panel-collapse collapse">
+        <div class="panel-body">
+          <ul>
+            <li><a href="#">Samsung</a></li>
+            <li><a href="#">iPhone</a></li>
+            <li><a href="#">Nokia</a></li>
+            <li><a href="#">HTC</a></li>
+            <li><a href="#">Huawei</a></li>
+            <li><a href="#">Sony</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title"><a href="#">Suodata</a></h4>
+      </div>
+    </div>
+
+  </div><!--/category-products-->
+
+  <form>
+    Etäisyys&nbsp;&nbsp;<input type="number" name="quantity" id="type" name="quantity" min="1" max="5">&nbsp;&nbsp;&nbsp;&nbsp;KM<br>
+  </form>
+
+  <form>
+  Aloituspäivä &nbsp;&nbsp;
+    <input type="date" name="date_in" id="date_in" value=""><br><br>
+  Lopetuspäivä &nbsp;&nbsp;
+    <input type="date" name="date_in" id="date_out" value=""><br>
+
+  </form>
+
+    <input type="submit" value ="Etsi " class="btn btn-success btn-block "><br><br><hr><br>
+  <div class="advert">
+    <img src="images/home/ad/1.jpg">
+    <img src="images/home/ad/4.jpg">
+    <img src="images/home/ad/5.jpg">
+    <img src="images/home/ad/6.jpg">
+  </div>
+
+
+</div><!--left side bar-->
+				</div>
+
+				<div class="col-sm-10 padding-right">
+          <div class="recommended_items"><!--recommended_items-->
+				<!--		<h2 style="background-color:#3c8dbc; padding:15px; border-radius:10px;"class="title text-center">Company Offers</h2>  -->
+           <h2 class="title text-center">KULUTTAJIEN TARJOUSPYYNNÖT</h2>
+
+                <div class="viewmore1">
+                  <div class="col-sm-12">
+                    <div class="row">
+
+                      <div class="col-sm-6">
+                        <div class="btn-group" role="group" aria-label="...">
+                          <button style="padding: 6px 20px;" type="button" class="btn btn-info">Lähetyspäivä</button>
+                          <button type="button" class="btn btn-success">Budjetti ( 100 €)</button>
+                          <button style="padding: 6px 20px;" type="button" class="btn btn-warning">Suositut</button>
+                          <button type="button" class="btn btn-danger">Valmistuu pian</button>
+                          </div>
+                      </div>
+
+
+<!--
+                    <div class="col-sm-2">
+                      <div class="dropdown">
+                         <button  style="padding: 6px 82px;" class="btn btn-md btn-danger dropdown-toggle" type="button" data-toggle="dropdown">Sort By
+                         <span class="caret"></span></button>
+                         <ul class="dropdown-menu">
+                           <li><a href="#">Price</a></li>
+                           <li><a href="#">Rating</a></li>
+                           <li><a href="#">Post date</a></li>
+                         </ul>
+                    </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="dropdown">
+                         <button  style="padding: 6px 82px;" class="btn btn-md btn-warning dropdown-toggle" type="button" data-toggle="dropdown">Sort By
+                         <span class="caret"></span></button>
+                         <ul class="dropdown-menu">
+                           <li><a href="#">Price</a></li>
+                           <li><a href="#">Rating</a></li>
+                           <li><a href="#">Post date</a></li>
+                         </ul>
+                    </div>
+                    </div>
+-->
+                    <div class="col-sm-6">
+                  <ul class="pagination">
+                    <li><a href="#">Edellinen</a></li>
+                   <li><a href="#">1</a></li>
+                   <li class="active"><a href="#">2</a></li>
+                   <li><a href="#">3</a></li>
+                   <li><a href="#">4</a></li>
+                   <li><a href="#">5</a></li>
+                    <li><a href="#">Seurava</a></li>
+                    </div>
+
+                  </div>
+                 </div>
+
+                 </ul>
+									<div class="pad_right col-sm-12">
+										<div class="box product-image-wrapper">
+											<div class="single-products row">
+                        <div style="margin-left:5px;"class="product-left-info col-sm-1 ">
+
+                          <br>
+                          <p>
+                            17 July
+                            <br><br>
+                            18 : 30
+                          </p>
+                        <!--
+                          <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-calendar fa-fw"></i> 17 July</span><br>
+                          <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-clock-o fa-fw"></i> 8:45 PM</span>
+                        -->
+                        </div>
+												<div class=" productinfo product-right-info col-sm-2 ">
+												    <img  src="images/companyoffers/mobile.png" alt="" />
+                        </div>
+                        <div class="productinfo product-right-info col-sm-5">
+                          <h2>Kameran linssin vaihto</h2>
+                              Canon kamerani näyttö on rikki, tarvitsen sen vaihdon.
+
+                        </div>
+                        <div class=" productinfo product-right-info col-sm-3">
+                          <p>
+                            Oulu, 90130
+                            Finland
+                            <br>
+                            <br>
+                            Korjaustyöt. Kamerat
+                          </p>
+                          <h2>4 tarjousta, 12 kiinnostunut</h2>
+                        </div>
+                      </div>
+                      <hr>
+                        <div class="single-products">
+                          <div class="col-sm-1">
+                          </div>
+                                <div class="pull-left col-sm-8" >
+                                    <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Visits"><i class="fa fa-eye fa-fw"></i> 14</span>
+                                    <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Unique visitors"><i class="fa fa-user fa-fw"></i> 5</span>
+                                    <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Offers"><i class="fa fa-flash fa-fw"></i> 50 &euro;</span>
+                                    <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Budget"><i class="fa fa-money fa-fw"></i> 70 &euro;</span>
+                                    <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Term"><i class="fa fa-calendar fa-fw"></i> 5 Days</span>
+                                </div>
+                                <div class="pull-right col-sm-2">
+                                    <a href="singleJobs.html" class="btn btn-default Esikatselu</a> pull-right"><i class="fa fa-file-o fa-fw"></i>Esikatselu</a>
+                                </div>
+											</div>
+										</div>
+									</div>
+
+                  <div style="margin-bottom:7px;" class="pad_right col-sm-12">
+                    <div class="box product-image-wrapper">
+                      <div class="single-products row">
+                        <div style="margin-left:5px;"class="product-left-info col-sm-1 ">
+
+                          <br>
+                          <p>
+                            17 July
+                            <br><br>
+                            18 : 30
+                          </p>
+                        <!--
+                          <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-calendar fa-fw"></i> 17 July</span><br>
+                          <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-clock-o fa-fw"></i> 8:45 PM</span>
+                        -->
+                        </div>
+                        <div class=" productinfo product-right-info col-sm-2 ">
+                            <img  src="images/companyoffers/apple.png" alt="" />
+                        </div>
+                        <div class="productinfo product-right-info col-sm-5">
+                          <h2>Tietokoneen käyttöjärjestelmän päivitys</h2>
+                              Tarvitsen tietokoneeni käyttöjärjestelmän päivityksen.
+
+                        </div>
+                        <div class=" productinfo product-right-info col-sm-3">
+                          <p>
+                            Oulu, 90130
+                            Finland
+                            <br>
+                            <br>
+                          Korjaustyöt.tietokoneet
+                          </p>
+                        <h2>4 tarjousta, 12 kiinnostunut</h2>
+                        </div>
+                      </div>
+                      <hr>
+                        <div class="single-products">
+                          <div class="col-sm-1">
+                          </div>
+                                <div class="pull-left col-sm-8" >
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Visits"><i class="fa fa-eye fa-fw"></i> 14</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Unique visitors"><i class="fa fa-user fa-fw"></i> 5</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Offers"><i class="fa fa-flash fa-fw"></i> 50 &euro;</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Budget"><i class="fa fa-money fa-fw"></i> 70 &euro;</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Term"><i class="fa fa-calendar fa-fw"></i> 5 Days</span>
+                              </div>
+                                <div class="pull-right col-sm-2">
+                                    <a href="#" class="btn btn-default preview pull-right"><i class="fa fa-file-o fa-fw"></i>Esikatselu</a>
+                                </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="pad_right col-sm-12">
+                    <div class="box product-image-wrapper">
+                      <div class="single-products row">
+                        <div style="margin-left:5px;"class="product-left-info col-sm-1 ">
+
+                          <br>
+                          <p>
+                            17 July
+                            <br><br>
+                            18 : 30
+                          </p>
+                        <!--
+                          <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-calendar fa-fw"></i> 17 July</span><br>
+                          <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-clock-o fa-fw"></i> 8:45 PM</span>
+                        -->
+                        </div>
+                        <div class=" productinfo product-right-info col-sm-2 ">
+                            <img  src="images/companyoffers/camera2.png" alt="" />
+                        </div>
+                        <div class="productinfo product-right-info col-sm-5">
+                          <h2>Reitittimen asennus</h2>
+                              Ostin uuden reitittimen, ja tarvitsen sen asennuksen.
+
+
+                        </div>
+                        <div class=" productinfo product-right-info col-sm-3">
+                          <p>
+                            Oulu, 90130
+                            Finland
+                            <br>
+                            <br>
+                            Asennustyöt. Reititin
+                          </p>
+                          <h2>4 tarjousta, 12 kiinnostunut</h2>
+                        </div>
+                      </div>
+                      <hr>
+                        <div class="single-products">
+                          <div class="col-sm-1">
+                          </div>
+                                <div class="pull-left col-sm-8" >
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Visits"><i class="fa fa-eye fa-fw"></i> 14</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Unique visitors"><i class="fa fa-user fa-fw"></i> 5</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Offers"><i class="fa fa-flash fa-fw"></i> 50 &euro;</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Budget"><i class="fa fa-money fa-fw"></i> 70 &euro;</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Term"><i class="fa fa-calendar fa-fw"></i> 5 Days</span>
+                                </div>
+                                <div class="pull-right col-sm-2">
+                                    <a href="#" class="btn btn-default preview pull-right"><i class="fa fa-file-o fa-fw"></i>Esikatselu</a>
+                                </div>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                <div style="margin-bottom:7px;" class="pad_right col-sm-12">
+                    <div class="box product-image-wrapper">
+                      <div class="single-products row">
+                        <div style="margin-left:5px;"class="product-left-info col-sm-1 ">
+
+                          <br>
+                          <p>
+                            17 July
+                            <br><br>
+                            18 : 30
+                          </p>
+                        <!--
+                          <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-calendar fa-fw"></i> 17 July</span><br>
+                          <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-clock-o fa-fw"></i> 8:45 PM</span>
+                        -->
+                        </div>
+                        <div class=" productinfo product-right-info col-sm-2 ">
+                            <img  src="images/companyoffers/laptop.png" alt="" />
+                        </div>
+                        <div class="productinfo product-right-info col-sm-5">
+                          <h2>Virus problem in laptop</h2>
+                              This is where we repair the screen and also put sticker in the mobile phones mobile phones This is where we repair the screen and also put sticker.
+
+                        </div>
+                        <div class=" productinfo product-right-info col-sm-3">
+                          <p>
+                            Oulu, 90130
+                            Finland
+                            <br>
+                            <br>
+                            Mobile, Electronics, Antenna.
+                          </p>
+                            <h2>4 tarjousta, 12 kiinnostunut</h2>
+                        </div>
+                      </div>
+                      <hr>
+                        <div class="single-products">
+                          <div class="col-sm-1">
+                          </div>
+                                <div class="pull-left col-sm-8" >
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Visits"><i class="fa fa-eye fa-fw"></i> 14</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Unique visitors"><i class="fa fa-user fa-fw"></i> 5</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Offers"><i class="fa fa-flash fa-fw"></i> 50 &euro;</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Budget"><i class="fa fa-money fa-fw"></i> 70 &euro;</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Term"><i class="fa fa-calendar fa-fw"></i> 5 Days</span>
+                                </div>
+                                <div class="pull-right col-sm-2">
+                                    <a href="#" class="btn btn-default preview pull-right"><i class="fa fa-file-o fa-fw"></i>Esikatselu</a>
+                                </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pad_right col-sm-12">
+                    <div class="box product-image-wrapper">
+                      <div class="single-products row">
+                        <div style="margin-left:5px;"class="product-left-info col-sm-1 ">
+
+                          <br>
+                          <p>
+                            17 July
+                            <br><br>
+                            18 : 30
+                          </p>
+                        <!--
+                          <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-calendar fa-fw"></i> 17 July</span><br>
+                          <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-clock-o fa-fw"></i> 8:45 PM</span>
+                        -->
+                        </div>
+                        <div class=" productinfo product-right-info col-sm-2 ">
+                            <img  src="images/companyoffers/antenna.png" alt="" />
+                        </div>
+                        <div class="productinfo product-right-info col-sm-5">
+                          <h2>Antenna Installation</h2>
+                              This is where we repair the screen and also put sticker in the mobile phones mobile phones This is where we repair the screen and also put sticker.
+
+                        </div>
+                        <div class=" productinfo product-right-info col-sm-3">
+                          <p>
+                            Oulu, 90130
+                            Finland
+                            <br>
+                            <br>
+                            Mobile, Electronics, Antenna.
+                          </p>
+                            <h2>4 tarjousta, 12 kiinnostunut</h2>
+                        </div>
+                      </div>
+                      <hr>
+                        <div class="single-products">
+                          <div class="col-sm-1">
+                          </div>
+                                <div class="pull-left col-sm-8" >
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Visits"><i class="fa fa-eye fa-fw"></i> 14</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Unique visitors"><i class="fa fa-user fa-fw"></i> 5</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Offers"><i class="fa fa-flash fa-fw"></i> 50 &euro;</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Budget"><i class="fa fa-money fa-fw"></i> 70 &euro;</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Term"><i class="fa fa-calendar fa-fw"></i> 5 Days</span>
+                                </div>
+                                <div class="pull-right col-sm-2">
+                                    <a href="#" class="btn btn-default preview pull-right"><i class="fa fa-file-o fa-fw"></i>Esikatselu</a>
+                                </div>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="pad_right col-sm-12">
+                    <div class="box product-image-wrapper">
+                      <div class="single-products row">
+                        <div style="margin-left:5px;"class="product-left-info col-sm-1 ">
+
+                          <br>
+                          <p>
+                            17 July
+                            <br><br>
+                            18 : 30
+                          </p>
+                        <!--
+                          <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-calendar fa-fw"></i> 17 July</span><br>
+                          <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-clock-o fa-fw"></i> 8:45 PM</span>
+                        -->
+                        </div>
+                        <div class=" productinfo product-right-info col-sm-2 ">
+                            <img  src="images/companyoffers/tv.png" alt="" />
+                        </div>
+                        <div class="productinfo product-right-info col-sm-5">
+                          <h2>Pictures not clear in TV</h2>
+                              This is where we repair the screen and also put sticker in the mobile phones mobile phones This is where we repair the screen and also put sticker.
+
+                        </div>
+                        <div class=" productinfo product-right-info col-sm-3">
+                          <p>
+                            Oulu, 90130
+                            Finland
+                            <br>
+                            <br>
+                            Mobile, Electronics, Antenna.
+                          </p>
+                          <h2>4 tarjousta, 12 kiinnostunut</h2>
+                        </div>
+                      </div>
+                      <hr>
+                        <div class="single-products">
+                          <div class="col-sm-1">
+                          </div>
+                                <div class="pull-left col-sm-8" >
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Visits"><i class="fa fa-eye fa-fw"></i> 14</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Unique visitors"><i class="fa fa-user fa-fw"></i> 5</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Offers"><i class="fa fa-flash fa-fw"></i> 50 &euro;</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Budget"><i class="fa fa-money fa-fw"></i> 70 &euro;</span>
+                                  <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Term"><i class="fa fa-calendar fa-fw"></i> 5 Days</span>
+                                </div>
+                                <div class="pull-right col-sm-2">
+                                    <a href="#" class="btn btn-default preview pull-right"><i class="fa fa-file-o fa-fw"></i>Esikatselu</a>
+                                </div>
+                      </div>
+                    </div>
+                  </div>
+
+                                    <div class="pad_right col-sm-12">
+                                      <div class="box product-image-wrapper">
+                                        <div class="single-products row">
+                                          <div style="margin-left:5px;"class="product-left-info col-sm-1 ">
+
+                                            <br>
+                                            <p>
+                                              17 July
+                                              <br><br>
+                                              18 : 30
+                                            </p>
+                                          <!--
+                                            <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-calendar fa-fw"></i> 17 July</span><br>
+                                            <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-clock-o fa-fw"></i> 8:45 PM</span>
+                                          -->
+                                          </div>
+                                          <div class=" productinfo product-right-info col-sm-2 ">
+                                              <img  src="images/companyoffers/company4.png" alt="" />
+                                          </div>
+                                          <div class="productinfo product-right-info col-sm-5">
+                                            <h2>Needed camera sensor cleaning service</h2>
+                                                This is where we repair the screen and also put sticker in the mobile phones mobile phones This is where we repair the screen and also put sticker.
+
+                                          </div>
+                                          <div class=" productinfo product-right-info col-sm-3">
+                                            <p>
+                                              Oulu, 90130
+                                              Finland
+                                              <br>
+                                              <br>
+                                              Mobile, Electronics, Antenna.
+                                            </p>
+                                            <h2>4 tarjousta, 12 kiinnostunut</h2>
+                                          </div>
+                                        </div>
+                                        <hr>
+                                          <div class="single-products">
+                                            <div class="col-sm-1">
+                                            </div>
+                                                  <div class="pull-left col-sm-8" >
+                                                    <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Visits"><i class="fa fa-eye fa-fw"></i> 14</span>
+                                                    <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Unique visitors"><i class="fa fa-user fa-fw"></i> 5</span>
+                                                    <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Offers"><i class="fa fa-flash fa-fw"></i> 50 &euro;</span>
+                                                    <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Budget"><i class="fa fa-money fa-fw"></i> 70 &euro;</span>
+                                                    <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Term"><i class="fa fa-calendar fa-fw"></i> 5 Days</span>
+                                                  </div>
+                                                  <div class="pull-right col-sm-2">
+                                                      <a href="#" class="btn btn-default preview pull-right"><i class="fa fa-file-o fa-fw"></i>Esikatselu</a>
+                                                  </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <div style="margin-bottom:7px;" class="pad_right col-sm-12">
+                                        <div class="box product-image-wrapper">
+                                          <div class="single-products row">
+                                            <div style="margin-left:5px;"class="product-left-info col-sm-1 ">
+
+                                              <br>
+                                              <p>
+                                                17 July
+                                                <br><br>
+                                                18 : 30
+                                              </p>
+                                            <!--
+                                              <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-calendar fa-fw"></i> 17 July</span><br>
+                                              <span class="date" data-toggle="tooltip" title="Created at" class="nobr"><i style="color:green;" class="fa fa-clock-o fa-fw"></i> 8:45 PM</span>
+                                            -->
+                                            </div>
+                                            <div class=" productinfo product-right-info col-sm-2 ">
+                                                <img  src="images/companyoffers/company7.png" alt="" />
+                                            </div>
+                                            <div class="productinfo product-right-info col-sm-5">
+                                              <h2>Laptop Formatting</h2>
+                                                  This is where we repair the screen and also put sticker in the mobile phones mobile phones This is where we repair the screen and also put sticker.
+
+                                            </div>
+                                            <div class=" productinfo product-right-info col-sm-3">
+                                              <p>
+                                                Oulu, 90130
+                                                Finland
+                                                <br>
+                                                <br>
+                                                Mobile, Electronics, Antenna.
+                                              </p>
+                                              <h2>4 tarjousta, 12 kiinnostunut</h2>
+                                            </div>
+                                          </div>
+                                          <hr>
+                                            <div class="single-products">
+                                              <div class="col-sm-1">
+                                              </div>
+                                                    <div class="pull-left col-sm-8" >
+                                                      <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Visits"><i class="fa fa-eye fa-fw"></i> 14</span>
+                                                      <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Unique visitors"><i class="fa fa-user fa-fw"></i> 5</span>
+                                                      <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Offers"><i class="fa fa-flash fa-fw"></i> 50 &euro;</span>
+                                                      <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Budget"><i class="fa fa-money fa-fw"></i> 70 &euro;</span>
+                                                      <span class="label label-default font-normal font-size-normal" data-toggle="tooltip" title="Term"><i class="fa fa-calendar fa-fw"></i> 5 Days</span>
+                                                    </div>
+                                                    <div class="pull-right col-sm-2">
+                                                        <a href="#" class="btn btn-default preview pull-right"><i class="fa fa-file-o fa-fw"></i>Esikatselu</a>
+                                                    </div>
+                                          </div>
+                                        </div>
+                                      </div>
+
+								</div>
+            <!--
+               <div class="viewmore">
+                         <a href="Offer.html"> view more >>> </a>
+               </div>
+             -->
+
+               <ul class="pagination">
+                 <li><a href="#">Edellinen</a></li>
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+
+                <li><a href="#">Seurava</a></li>
+              </ul>
+					</div><!--/recommended_items-->
+				</div>
+			</div>
+	</section>
+
+  <footer id="footer"><!--Footer-->
+
+
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Palvelut</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Online Tuki</a></li>
+								<li><a href="#">Ota meihin yhteyttä</a></li>
+								<li><a href="#">Tilauksen tila</a></li>
+								<li><a href="#">Muuta sijaintia</a></li>
+								<li><a href="#">Yleisimmin kysytyt kysymykset</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Ehdot</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Käyttöehdot</a></li>
+								<li><a href="#">Tietosuojakäytäntö</a></li>
+
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>Meistä</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">Yrityksen tiedot</a></li>
+								<li><a href="#">Urat</a></li>
+								<li><a href="#">Tekijänoikeus </a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3 col-sm-offset-1 pull-right">
+						<div class="single-widget">
+							<h2>Liity postituslistaamme</h2>
+							<form action="#" class="searchform">
+								<input type="text" placeholder="Sähköpostiosoitteesi" /><br><br>
+								<button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+								<p>Vastaanota viimeisimmät päivitykset sivustoltamme.</p>
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<!--<div class="container">
+				<div class="row">
+					<p class="pull-left">Copyright © 2013 E-SHOPPER Inc. All rights reserved.</p>
+					<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+				</div>
+			</div>-->
+		</div>
+
+	</footer><!--/Footer-->
+
+
+
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/price-range.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

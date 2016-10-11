@@ -1,0 +1,66 @@
+<div class="header-middle"><!--header-middle-->
+  <div  class="container-fluid">
+    <div style="padding-left:1.8%" class="row">
+      <div class=col-sm-2>
+          <a  class="fix logo pull-left" href="index.php"><img class="img-responsive" src="images/home/logo5.png" alt="" /></a>
+        </div>
+      <div  class="col-sm-5">
+
+          <div id = "top" class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                  </button>
+          </div>
+          <div  class="mainmenu pull-left ">
+                  <ul class="nav navbar-nav collapse navbar-collapse">
+                          <li><a href="index.php" class="active">Home</a></li>
+                          <li><a href="about.php">About-us</a></li>
+                          <li><a href="networks.php">Networks</a></li>
+                          <li><a href="Jobs.php">Jobs</a></li>
+                          <li><a href="Offer.php">Offer</a></li>
+                          <li><a href="blogs.php">Blog</a></li>
+                          <li><a href="contact.php">Contact</a></li>
+
+
+                  </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-4  pull-right">
+          <nav class=" language pull-right">
+           <ul>
+                    <li><a href="login"><i class="fa fa-edit"></i> Signup</a></li>
+                    <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
+                    <li class="subNav">
+                         <a href="#" title="Switch language"> English <i class="fa fa-caret-down"> &nbsp; </i></a>
+                       <ul class="submenu">
+                            <li><a href="#"> Finnish</a></li>
+                            <li><a href="#"> German</a></li>
+                            <li><a href="#"> Italiano</a></li>
+
+                        </ul>
+                    </li>
+
+
+                <!-- <li>
+                    <a href="/en/#" class="sidebar-toggle hidden-sm hidden-md hidden-lg no-margin-right" data-toggle="collapse" data-target="#topnavCollapse" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                </li> -->
+            </ul>
+          </nav>
+
+        </div>
+
+
+
+    </div><!--/row-->
+  </div><!--/container-fluid-->
+
+</div><!--/header-middle-->

@@ -1,0 +1,56 @@
+<div class="category-tab"><!--category-tab-->
+				
+						
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="images/home/img1.png" alt="" />
+												<h2>Problem? </h2>
+												
+												<a href="#" class="btn btn-success add-to-cart"><i class="glyphicon glyphicon-arrow-right "></i>Post problem</a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img  src="images/home/img2.png" alt="" />
+												<h2>Save money!! </h2>
+												
+												<a href="#" class="btn btn-default add-to-cart"><i class="glyphicon glyphicon-arrow-right"></i>login</a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img  src="images/home/img3.png" alt="" />
+												<h2>Post your problem </h2>
+												
+												<a href="#" class="btn btn-default add-to-cart"><i class="glyphicon glyphicon-arrow-right"></i>Post problem</a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img  src="images/home/img4.png" alt="" />
+												<h2>Get your solution</h2>
+											
+												<a href="#" class="btn btn-default add-to-cart"><i class="glyphicon glyphicon-arrow-right"></i>Get solution</a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+                                        </div>
