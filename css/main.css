@@ -240,8 +240,13 @@ a#scrollUp i{
 }
 
 #reduce_padding{
-  background: none !important;
+  /*background: none !important;*/
   padding:0;
+
+  }
+
+  #reduce_padding input{
+    width:20em;
 
   }
   .three{
