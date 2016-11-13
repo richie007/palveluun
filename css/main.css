@@ -210,7 +210,7 @@ a#scrollUp i{
   background-color: #810c13;
 }
 
-.register a {
+/*.register a {
   background-image: url('../images/home/btn-red.png');
   background-position: right;
   color: white;
@@ -219,25 +219,27 @@ a#scrollUp i{
   height: 40px;
 
 
-}
+}*/
 
 .register a:hover, .login a:hover {
-  color: lightgray !important;
+  color: #fff!important;
+background: #3c8eb1;
+opacity: 0.8;
 }
 
 .login {
-  background-color: #166d5b
+  background-color: #166d5b !important;
 }
+/*//1f6f5b  possuble color fot background*/
 
-
-.login a {
+/*.login a {
   background-image: url('../images/home/btn-green.png');
   background-position: left;
   color: white;
   display: block;
   background-repeat: no-repeat;
   height: 40px;
-}
+}*/
 
 #reduce_padding{
   /*background: none !important;*/
@@ -247,7 +249,19 @@ a#scrollUp i{
 
   #reduce_padding input{
     width:20em;
+    height: 95%;
+    padding: 6px 12px;
+    border-bottom: 0;
 
+  }
+  .searchbtn
+  {
+    padding-right: 3em;
+    padding-left: 2em;
+    margin-bottom: 4px;
+    background-color: #3c8dbc;
+    color: #fff;
+}
   }
   .three{
     background-color: #3c8dbc;
@@ -357,8 +371,8 @@ ul.submenu {
 
 }
 ul.submenu li {
-  padding-top:5px;
-  padding-left:15px;
+  padding-top: 2px;
+  padding-left: 15px;
   padding-bottom: 5px;
   list-style-type: none;
 }
@@ -812,6 +826,14 @@ div.col-sm-9{
  background-color: floralwhite;
 
 }
+.testimg{
+  background: url("../images/home/cover.jpg") no-repeat center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover ;
+  height: 345px;
+}
 .viewmore   {
 
     display: block;
@@ -914,7 +936,7 @@ div.col-sm-9{
 }
 
 .right {
-  right: -2%;
+  right: 2%;
 }
 /*
 .category-products {
